@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;900&display=swap");
+
+/* nav styling */
+
+.navbar {
+	box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.3);
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+
+.navbar .nav-item {
+	padding: 0.5rem;
+}
+
+/* make the last nav item flush against its container */
+.navbar .nav-item:last-of-type {
+	padding-right: 0;
+}
+
+#bigboy h1 {
+	font-weight: 700;
+	font-size: 5rem;
+}
+
+#bigboy p {
+	padding: 0.2rem;
+	margin: 0;
+}
+
+#bigboy {
+	background-image: url(images/DeltaDrill/drill1.webp);
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+
+#backgroundColour {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#leftbig {
+	padding: 10rem 0rem 10rem 20%;
+}
+
+/* about me section */
+
+#aboutMe {
+	width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+	#aboutMe {
+		width: 35rem;
+	}
+}
+
+/* projects section styling */
+
+/* make image darken when hovered over */
+.hover-background-color {
+	width: 100%;
+	text-align: left;
+	padding: 6rem 15% 6rem 15%;
+}
+
+.hover-background-color:hover {
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 100%;
+	color: white;
+}
+
+#project1 {
+	background-image: url(images/DeltaDrill/drill3.webp);
+	background-position: center;
+	background-size: cover;
+}
+
+#project2 {
+	background-image: url(images/GardenHose/cover-image.webp);
+	background-position: right;
+	background-size: cover;
+}
+
+#project3 {
+	background-image: url(images/digital-cover-image.webp);
+	background-position: left;
+	background-size: cover;
+}
+
+/* modal section styling */
+
+.modal-dialog .modal-close {
+	/* this is the button the closes the modal */
+	z-index: 100;
+	position: fixed;
+	top: 2rem;
+	right: 2rem;
+	width: 2rem;
+}
+
+.modal-body > img {
+	/* image styling for the modal contents */
+	padding: 0.5rem;
+	width: 100%;
+}
+
+.modal-body {
+	scrollbar-color: red yellow;
+	color: white;
+	background-color: rgba(20, 20, 20, 1);
+	padding: 4rem;
+}
+
+/* styling for digial work section */
+
+.text-box {
+	width: 100%;
+	max-width: 30rem;
+}
